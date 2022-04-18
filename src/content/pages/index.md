@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Ziyu Li
 tagline: PhD Candidate
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/center.jpeg
 cta:
   ctaText: Know more
   ctaLink: /about
