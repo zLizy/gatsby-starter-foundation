@@ -79,13 +79,6 @@ const HomePage = ({ data }) => {
   const sIcons = Icons.socialIcons.map((icons, index) => {
     return (
       <div key={"social icons" + index}>
-        {icons.icon === "facebook" ? (
-          <Link to={icons.url} target="_blank" aria-label="link to Facebook">
-            <RiFacebookBoxFill alt="Facebook icon"/>
-          </Link>
-        ) : (
-          ""
-        )}
         {icons.icon === "twitter" ? (
           <Link to={icons.url} target="_blank" aria-label="link to Twitter">
             <RiTwitterFill alt="Twitter icon"/>
@@ -107,20 +100,7 @@ const HomePage = ({ data }) => {
         ) : (
           ""
         )}
-        {icons.icon === "instagram" ? (
-          <Link to={icons.url} target="_blank" aria-label="link to Instagram">
-            <RiInstagramFill alt="Instagram icon" />
-          </Link>
-        ) : (
-          ""
-        )}
-        {icons.icon === "rss" ? (
-          <Link to={icons.url} target="_blank" aria-label="link to RSS" >
-            <RiRssFill alt="RSS icon" />
-          </Link>
-        ) : (
-          ""
-        )}
+        
         {icons.icon === "github" ? (
           <Link to={icons.url} target="_blank" aria-label="link to Github" >
             <RiGithubFill alt="Github icon" />
@@ -128,13 +108,7 @@ const HomePage = ({ data }) => {
         ) : (
           ""
         )}
-        {icons.icon === "telegram" ? (
-          <Link to={icons.url} target="_blank" aria-label="link to Telegram" >
-            <RiTelegramFill alt="Telegram icon" />
-          </Link>
-        ) : (
-          ""
-        )}
+        
         {icons.icon === "pinterest" ? (
           <Link to={icons.url} target="_blank" aria-label="link to Pinterest">
             <RiPinterestFill alt="Pinterest icon" />
